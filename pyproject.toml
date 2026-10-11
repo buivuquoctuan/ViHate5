@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crnn-iiit5k"
+version = "0.1.0"
+description = "CRNN word recognition and reproducible error analysis on IIIT5K"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.5,<3",
+  "numpy>=1.26,<3",
+  "scipy>=1.12,<2",
+  "Pillow>=10.4,<13",
+  "matplotlib>=3.8,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

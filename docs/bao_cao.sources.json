@@ -1,0 +1,75 @@
+{
+  "generated_at_utc": "2026-10-11T02:46:36.750861+00:00",
+  "selected_run": "C:\\HOCSAU\\runs\\improved_seed42",
+  "corruption_spec": {
+    "version": "canvas-preserving-v1",
+    "gaussian_blur": {
+      "radius_pixels_by_severity": [
+        0.7,
+        1.2,
+        2.0
+      ]
+    },
+    "perspective": {
+      "horizontal_margin_fraction_by_severity": [
+        0.04,
+        0.08,
+        0.12
+      ],
+      "vertical_margin_fraction_by_severity": [
+        0.05,
+        0.1,
+        0.15
+      ],
+      "corner_margin_multipliers": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.25,
+          1.5
+        ],
+        [
+          1.0,
+          0.25
+        ],
+        [
+          0.5,
+          1.0
+        ]
+      ],
+      "resampling": "bicubic",
+      "fill": "opaque white"
+    },
+    "wave": {
+      "amplitude_height_fraction_by_severity": [
+        0.04,
+        0.07,
+        0.1
+      ],
+      "cycles": 1,
+      "vertical_padding_pixels": 0.5,
+      "resampling": "vertical bilinear",
+      "fill": "opaque white"
+    }
+  },
+  "sources_sha256": {
+    "C:\\HOCSAU\\runs\\comparison\\comparison.json": "0f86f4f6231518b0f43fe1a936e00e31c111355ae4f0014a91bdedfbb9665fb9",
+    "C:\\HOCSAU\\runs\\improved_seed42\\analysis\\summary.json": "90d410cab4534d18ed482d5658ec3c4ca2501408950371d20dd7fd53980b4090",
+    "C:\\HOCSAU\\runs\\improved_seed42\\analysis\\error_patterns.json": "e744208c6b191ecc88ab37277aeca8c92245e0de6d999fa6cde5adc2755cb497",
+    "C:\\HOCSAU\\runs\\baseline_seed42\\analysis\\summary.json": "25c9ae8b4c89d6cce73d71f8e6173e062b09c68bc83126596621053304a34aaf",
+    "C:\\HOCSAU\\runs\\baseline_seed42\\analysis\\error_patterns.json": "0068cf36326ae32b2f1b3ab432231d19546acaa606de20be83faf38cfd2a26ca",
+    "C:\\HOCSAU\\data\\manifests\\split_metadata.json": "19b408414d29b9406f43b903309fba62ffcf062b098f0bae1e5418ae69a6e418",
+    "C:\\HOCSAU\\data\\synthetic_v1\\source_metadata.json": "2c758812298f11d74a47ec1345d2b530dbb28afc35f3b0fd8038e1ce7ccda91e",
+    "C:\\HOCSAU\\runs\\experiment_plan.json": "d59efed27ee0616d6a5b4ba58d77ff312794ddd6c880f14ed1d1aab8b9a62109",
+    "C:\\HOCSAU\\runs\\synthetic_pretrain_v1\\training_summary.json": "c078dc67a77a4fe20254163308260cb14e8af2064a9cd57963e0252716a9c786",
+    "C:\\HOCSAU\\runs\\synthetic_pretrain_v1\\iiit_validation\\metrics.json": "a9c1b760dfe45ed1bc493244019ad6b447139d83eef8a984278d6ffa17be4eab",
+    "C:\\HOCSAU\\runs\\improved_seed42\\config.json": "c68c36268069cd55272f0cac2534850012bd747ebbbd747908dbd1877b2e7ccb",
+    "C:\\HOCSAU\\runs\\improved_seed42\\history.csv": "1e53fb58559fc32dfd3b2dc72f9b03cc4db76e60aa7731049520a0b76d0760fd",
+    "C:\\HOCSAU\\runs\\improved_seed42\\environment.json": "7c311ab56e92de7a75f9636f2f1d9a8cf3e6f70c6f4f9129293392bbcb02ceff",
+    "C:\\HOCSAU\\runs\\improved_seed42\\training_summary.json": "3606699b216050cf18d4b300a1aa4b7cfcb859f7e10502ecb9db7be2c7be9226",
+    "C:\\HOCSAU\\runs\\improved_seed42\\analysis\\errors.csv": "d224ae4b5ce834df305c0828bc751b16dd8990ea6d0a303f62acceaa5a78e0a5",
+    "C:\\HOCSAU\\scripts\\write_final_report.py": "75b9de6946ee79c8c64b1d5e2dd979bb3c58d32d6bdc38d7e52f07c79d2199dd"
+  }
+}

@@ -1,0 +1,96 @@
+﻿{
+    "date":  "2026-10-11",
+    "removed":  [
+                    {
+                        "path":  ".cache",
+                        "bytes":  2587012956
+                    },
+                    {
+                        "path":  ".pytest_cache",
+                        "bytes":  13609
+                    },
+                    {
+                        "path":  "src\\crnn\\__pycache__",
+                        "bytes":  204868
+                    },
+                    {
+                        "path":  "scripts\\__pycache__",
+                        "bytes":  135491
+                    },
+                    {
+                        "path":  "tests\\__pycache__",
+                        "bytes":  447493
+                    },
+                    {
+                        "path":  "runs\\smoke",
+                        "bytes":  20518594
+                    },
+                    {
+                        "path":  "runs\\smoke_verified",
+                        "bytes":  21566008
+                    },
+                    {
+                        "path":  "runs\\smoke_final",
+                        "bytes":  20519481
+                    },
+                    {
+                        "path":  "runs\\smoke_audit_20261011",
+                        "bytes":  20524532
+                    },
+                    {
+                        "path":  "runs\\exploratory_no_cnn_margin_seed42\\best.pt",
+                        "bytes":  32816744
+                    },
+                    {
+                        "path":  "data\\synthetic_v1\\preview.png",
+                        "bytes":  349375
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\audit_dom.html",
+                        "bytes":  339600
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\audit_stderr.log",
+                        "bytes":  0
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\edge_review_stderr.log",
+                        "bytes":  72
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\edge_review_stdout.log",
+                        "bytes":  0
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\edge_stderr.log",
+                        "bytes":  3805
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\edge_stdout.log",
+                        "bytes":  0
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\interactive_dom.html",
+                        "bytes":  344933
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\interactive_smoke.html",
+                        "bytes":  333238
+                    },
+                    {
+                        "path":  "runs\\ui_checks\\interactive_stderr.log",
+                        "bytes":  0
+                    }
+                ],
+    "total_bytes":  2705130799,
+    "kept":  [
+                 ".venv",
+                 "src/crnn_iiit5k.egg-info",
+                 "data/raw",
+                 "data/manifests",
+                 "data/synthetic_v1",
+                 "data/annotation_tool",
+                 "research checkpoints and experiment outputs",
+                 "source code, tests, docs and notebook"
+             ]
+}
